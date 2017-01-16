@@ -396,8 +396,6 @@ a:hover {
 @media screen and (min-width: 700px) {
 h2 {
     font-size: 2.4rem;
-    text-align: center;
-    margin-bottom: 1rem;
 }
 
 .aloha-logo {
@@ -419,23 +417,16 @@ h2 {
     background-position: 50% 60px, center;
     background-size: 17.7%, contain;
     height: 550px;
-    position: relative;
-    color: #FFF;
 }
 
 .collection {
     padding-top: 13.8rem;
     font-size: 1.25rem;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-family: 'ralewaymedium', 'Arial', serif;
 }
 
 .spring {
     font-size: 3.95rem;
     padding-top: 0.46rem;
-    color: #FFFFFF;
-    font-family: 'playfair_regular', 'Times New Roman', serif;
 }
 
 .companyinfo {
@@ -446,23 +437,15 @@ h2 {
 
 .shopcontent {
     font-size: 1.15rem;
-    text-align: center;
-    padding: 0.5rem;
     line-height: 2.4rem;
-    font-family: 'ralewaylight', 'Arial', sans-serif;
-    color: #2d2d2d;
 }
 
 .border {
-    border-top: 1px solid #d7d7d7;
     margin-top: 3.4rem;
 }
 
 .lovedproducts {
-    font-family: 'playfair_bold', 'Times New Roman', serif;
     margin-top: 4rem;
-    margin-bottom: 0.9rem;
-    color: #2d2d2d;
 }
 
 .picture {
@@ -470,18 +453,10 @@ h2 {
 }
 
 .type {
-    text-transform: uppercase;
-    text-align: center;
     font-size: 0.75rem;
-    margin: 0rem 0rem 0.5rem 0rem;
-    line-height: 1.9rem;
-    font-family: 'ralewaymedium', 'Arial', sans-serif;
-    color: #969696;
 }
 
 .title {
-    color: #e2574c;
-    font-family: 'playfair_regular', 'Arial', sans-serif;
     width: 70%;
     margin: 0 auto;
     font-size: 1.5rem;
