@@ -1,3 +1,17 @@
+/* Fonts */
+
+/*Playfair Regular*/
+@font-face {
+    font-family: 'playfair_regular';
+    src: url('../fonts/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*Playfair Bold*/
 @font-face {
     font-family: 'playfair_bold';
@@ -8,20 +22,6 @@
          url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
-/*Playfair Bold Italic*/
-@font-face {
-    font-family: 'playfair_bold_italic';
-    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
-    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 /*Playfair Italic*/
@@ -34,21 +34,20 @@
          url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-/*Playfair Regular*/
+/*Playfair Bold Italic*/
 @font-face {
-    font-family: 'playfair_regular';
-    src: url('../fonts/playfairdisplay-regular-webfont.eot');
-    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-family: 'playfair_bold_italic';
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 /*Raleway Light aka Regular*/
 @font-face {
@@ -60,7 +59,6 @@
          url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*Raleway Light Italic*/
@@ -73,7 +71,6 @@
          url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*Raleway Medium aka Bold*/
@@ -86,7 +83,6 @@
          url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*Raleway Medium Italic*/
@@ -99,41 +95,40 @@
          url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* Aloha Apparel logo */ 
 .aloha-logo {
-	float: left;
-	width: 25%;
-	margin: 2%;
+    float: left;
+    width: 27%;
+    margin: 13.5px 4% 0px 2%;
 }
 
 /* Shopping cart icon */
 .cart-icon {
-	float: right;
-	width: 10.5%;
-	margin: 2%;
+    float: right;
+    width: 11%;
+    margin: 3%;
 }
 
 /* Clearfix hack  */
 .clearfix:before,
 .clearfix:after {
-	display: block;
-	content: "";
-	clear: both;
+    display: block;
+    content: "";
+    clear: both;
 }
 
 /* Hero Banner */
 .banner{
-	background: 
-		linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
-		url(../images/banner-girl.png) no-repeat center 60px,
-		url(../images/flower-bkgd.jpg) repeat-x center top;
-		background-size: contain, 9.4em, cover;
-		height: 400px;
-		position: relative;
-		margin-bottom: 3rem;
+    background: 
+        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
+        url(../images/banner-girl.png) no-repeat center 60px,
+        url(../images/flower-bkgd.jpg) repeat-x center top;
+        background-size: contain, 9.4rem, cover;
+        height: 400px;
+        position: relative;
+        margin-bottom: 3rem;
 }
 
 .companyinfo {
@@ -141,17 +136,17 @@
 }
 
 .collection{
-	padding-top: 10.25rem;
-	font-size: 1.1rem;
-	color: #FFFFFF;
+    padding-top: 10.25rem;
+    font-size: 1.1rem;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-family: 'ralewaymedium', 'Arial', serif;
 }
 
 .spring{
-	font-size: 2.2rem;
-	margin: 1.2px;
-	color: #FFFFFF;
+    font-size: 2.2rem;
+    margin: 1.2px;
+    color: #FFFFFF;
     font-family: 'playfair_regular', 'Times New Roman', serif;
 }
 
@@ -160,18 +155,18 @@
 }
 
 .merchandise {
-	border-top: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
 }
 
-h2 {	
-	font-size: 2.1rem;
-	text-align: center;
-	margin-bottom: 1rem;
+h2 {    
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 h3 {
-	font-size: 1.5rem;
-	text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .handcrafted {
@@ -209,7 +204,7 @@ ul {
 }
 
 li {
-	display: inline-block;
+    display: inline-block;
 }
 
 /*Writing inside the body*/
@@ -268,21 +263,55 @@ li {
   height: 334.5px;
 }
 
-.submitbox {
-    margin: 3rem;
+.container {
+    width: 100%;
+}
+
+form {
+    /*position: relative;*/
+    width: 80%;
+    margin: 1.3rem 2rem 0 2rem;}
+
+.inputbox {
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding-left: 1.6rem;
+    padding-right: 150px;
+    width: 63%;
+    height: 2.39rem;
+    font-family: 'ralewaylight', 'Arial', sans-serif;
+    font-size: 0.85rem;
+    position: relative;
+    display: block;
+}
+
+.subscribe {
+    width: 28%;
+    height: 5%;
+    border: none;
+    background-color: #e2574c;
+    border-radius: 100rem;
+    color: #FFF;
+    font-family: 'ralewaymedium', 'Arial', sans-serif;
+    font-size: 0.87rem;
+    position: absolute;
+    right: -3.9rem;
+    margin-right: 1.5rem;
 }
 
 /* Footer Banner */
+
 .footerbanner {
-	width: 100%;
-	position: absolute;
-	background-color: #242424;
-	text-align: left;
-	margin-top: 0.5rem;
+    width: 100%;
+    position: absolute;
+    background-color: #242424;
+    text-align: left;
+    margin-top: 0.5rem;
 }
 
 .information {
-	text-align: center;
+    text-align: center;
     margin-top: 3.6rem;
     margin-bottom: 1.5rem;
     font-family: 'playfair_regular', 'Times New Roman',serif;
@@ -291,12 +320,12 @@ li {
 }
 
 .info {
-	margin-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
     color: #FFF;
 }
 
 .contact {
-	margin-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
     color: #FFF;
 }
 
@@ -320,28 +349,40 @@ li {
 }
 
 a{
-	color: #FFF;
+    color: #FFF;
 }
 
 a:hover {
-	color: #b64036;
+    color: #b64036;
 }
 
 /*Tablet Sized Viewport*/
 @media screen and (min-width: 480px) {
+.aloha-logo {
+    float: left;
+    width: 21%;
+    margin: 1.65rem 4% 0 2%;
+}
+
+.cart-icon {
+    float: right;
+    width: 8.5%;
+    margin: 1.65rem 1rem 1rem;
+}
+
 .information {
-	float: left;
-	margin-left: 1.5rem;
-	margin-bottom: 1.5rem;
-	padding-top: 1.5rem;
-	text-align: left;
+    float: left;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: left;
 }
 
 .social {
-	float: right;
+    float: right;
     line-height: 1.5rem;
-	margin-right: 8rem;
-	padding-top: 1.5rem;
+    margin-right: 8rem;
+    padding-top: 1.5rem;
     text-align: left;
 }
 
@@ -356,22 +397,73 @@ a:hover {
 }
 /*Desktop Sized Viewport*/
 @media screen and (min-width: 700px) {
+h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.aloha-logo {
+    float: left;
+    width: 11.5%;
+    margin: 0.9rem 4% 0 8%;
+}
+
+/* Shopping cart icon */
+.cart-icon {
+    float: right;
+    width: 4.5%;
+    margin: 0.65rem 7rem 1.5rem;
+}
+
+.banner{
+    background: 
+/*        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),*/
+        url(../images/banner-girl.png) no-repeat,
+        url(../images/flower-bkgd.jpg) repeat-x;
+    background-position: 50% 60px, center;
+    background-size: 17.7%, contain;
+    height: 550px;
+    position: relative;
+    color: #FFF;
+}
+
+.collection {
+    padding-top: 13.8rem;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'ralewaymedium', 'Arial', serif;
+}
+
+.spring {
+    font-size: 3.95rem;
+    padding-top: 0.46rem;
+    color: #FFFFFF;
+    font-family: 'playfair_regular', 'Times New Roman', serif;
+}
+
+.companyinfo {
+    margin-top: 3.9rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+}
+
+.shopcontent {
+    font-size: 1.15rem;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 2.4rem;
+    font-family: 'ralewaylight', 'Arial', sans-serif;
+    color: #2d2d2d;
+}
+
+.border {
+    border-top: 1px solid #d7d7d7;
+    margin-top: 3.4rem;
 }
 
 
-/*Footer floats for desktop view*/
-/*.information {
-	float: left;
-	margin-left: 1rem;
-	margin-bottom: 1.5rem;
-	padding-top: 1rem;
+
 }
-
-.social {
-	float: right;
-	margin-right: 1rem;
-	padding-top: 1rem;
-} */
-
-/*change that Ben forced me to do*/
 
