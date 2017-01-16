@@ -200,7 +200,6 @@ h3 {
 ul {
     text-align: center;
     margin-top: 2.75rem;
-    margin-bottom: 0.9rem;
 }
 
 li {
@@ -234,7 +233,6 @@ li {
     margin: 0rem 0rem 0.5rem 0rem;
     line-height: 1.9rem;
     font-family: 'ralewaymedium', 'Arial', sans-serif;
-    font-weight: bold;
     color: #969696;
 }
 
@@ -261,6 +259,7 @@ li {
   url(../images/wave-bkgd.jpg);
   background-position: bottom;
   height: 334.5px;
+  margin-top: 0.9rem;
 }
 
 .container {
@@ -359,13 +358,11 @@ a:hover {
 /*Tablet Sized Viewport*/
 @media screen and (min-width: 480px) {
 .aloha-logo {
-    float: left;
     width: 21%;
     margin: 1.65rem 4% 0 2%;
 }
 
 .cart-icon {
-    float: right;
     width: 8.5%;
     margin: 1.65rem 1rem 1rem;
 }
@@ -404,14 +401,12 @@ h2 {
 }
 
 .aloha-logo {
-    float: left;
     width: 11.5%;
     margin: 0.9rem 4% 0 8%;
 }
 
 /* Shopping cart icon */
 .cart-icon {
-    float: right;
     width: 4.5%;
     margin: 0.65rem 7rem 1.5rem;
 }
@@ -463,7 +458,45 @@ h2 {
     margin-top: 3.4rem;
 }
 
-
-
+.lovedproducts {
+    font-family: 'playfair_bold', 'Times New Roman', serif;
+    margin-top: 4rem;
+    margin-bottom: 0.9rem;
+    color: #2d2d2d;
 }
 
+.picture {
+    width: 73%;
+}
+
+.type {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+    line-height: 1.9rem;
+    font-family: 'ralewaymedium', 'Arial', sans-serif;
+    color: #969696;
+}
+
+.title {
+    color: #e2574c;
+    font-family: 'playfair_regular', 'Arial', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+.waves {
+    height:344.5px;
+}
+
+.updates {
+    padding-top:4.2rem;
+}
+
+}
