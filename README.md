@@ -14,5 +14,5 @@ HTML, CSS3, Git/Github, Terminal/Command Line
 HTML structure and CSS stying as well as proper semantic use. Approach to web development with the mobile first design. Learning and becoming familiar with using terminal and command lines. Efficiently using Git and Github to edit and share projects.
 
 ##To Do
-Fix input form and submit button, Correct horizontal alignment of merchandise list
+Fix input form and submit button, Correct horizontal alignment of merchandise list, Clean up CSS
 

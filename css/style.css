@@ -483,6 +483,19 @@ h2 {
     width: 80.5%;
 }
 
+.inputbox {
+    margin-left: 9rem;
+    padding-left: 2rem;
+}
+
+.subscribe {
+    width: 15%;
+    height: 2.2rem;
+    right: 5.2rem;
+    top: 0.16rem;
+}
+
+
 .footerbanner {
     padding-top:4rem;
 }
