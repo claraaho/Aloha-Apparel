@@ -197,7 +197,7 @@ h3 {
 }
 
 /*Merchandise list*/
-ul {
+.merchlist {
     text-align: center;
     margin-top: 2.75rem;
 }
@@ -219,7 +219,7 @@ li {
 .wavescontent {
     font-size: 1.05rem;
     text-align: center;
-    padding: 0.5rem;
+    margin: 0.5rem;
     line-height: 2rem;
     font-family: 'ralewaylight', 'Arial', sans-serif;
     color: #FFF;
@@ -262,27 +262,23 @@ li {
   margin-top: 0.9rem;
 }
 
-.container {
-    width: 100%;
-}
-
 form {
-    /*position: relative;*/
-    width: 80%;
+    position: relative;
+    display: block;
     margin: 1.3rem 2rem 0 2rem;}
 
 .inputbox {
     outline: none;
     border: none;
     border-radius: 100px;
-    padding-left: 1.6rem;
-    padding-right: 150px;
     width: 63%;
     height: 2.39rem;
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 0.85rem;
-    position: relative;
     display: block;
+}
+.container {
+    margin: 0 auto;
 }
 
 .subscribe {
@@ -295,7 +291,6 @@ form {
     font-family: 'ralewaymedium', 'Arial', sans-serif;
     font-size: 0.87rem;
     position: absolute;
-    right: -3.9rem;
     margin-right: 1.5rem;
 }
 
@@ -358,13 +353,13 @@ a:hover {
 /*Tablet Sized Viewport*/
 @media screen and (min-width: 480px) {
 .aloha-logo {
-    width: 21%;
-    margin: 1.65rem 4% 0 2%;
+    width: 11.3%;
+    margin: 1rem 4% 1.15rem 8.3%;
 }
 
 .cart-icon {
-    width: 8.5%;
-    margin: 1.65rem 1rem 1rem;
+    width: 4.4%;
+    margin: 1rem 7.4rem 1.15rem;
 }
 
 .information {
@@ -388,6 +383,10 @@ a:hover {
 .socialcontent {
     display: block
 }
+
+.sociallist {
+    text-align: left;
+}
 }
 /*Desktop Sized Viewport*/
 @media screen and (min-width: 700px) {
@@ -396,24 +395,25 @@ h2 {
 }
 
 .aloha-logo {
-    width: 11.5%;
-    margin: 0.9rem 4% 0 8%;
+    width: 11.3%;
+    margin: 1rem 4% 1.15rem 8.3%;
 }
 
 /* Shopping cart icon */
 .cart-icon {
-    width: 4.5%;
-    margin: 0.65rem 7rem 1.5rem;
+    width: 4.4%;
+    margin: 1rem 7.35rem 1.15rem;
 }
 
 .banner{
     background: 
-/*        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),*/
+        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
         url(../images/banner-girl.png) no-repeat,
         url(../images/flower-bkgd.jpg) repeat-x;
-    background-position: 50% 60px, center;
-    background-size: 17.7%, contain;
+    background-position: 50% 0rem, center 3.72rem;
+    background-size: cover, 17.65%, contain;
     height: 550px;
+    text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
 .collection {
@@ -422,8 +422,8 @@ h2 {
 }
 
 .spring {
-    font-size: 3.95rem;
-    padding-top: 0.46rem;
+    font-size: 4rem;
+    padding-top: 0.5rem;
 }
 
 .companyinfo {
@@ -464,22 +464,33 @@ h2 {
 }
 
 .waves {
-    height:344.5px;
+    height: 344.5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 825px;
 }
 
 .updates {
-    padding-top:4.2rem;
+    padding-top: 4.1rem;
+}
+
+.wavescontent {
+    font-size: 1.15rem;
+    margin: 1.5rem auto;
+    line-height: 2.25rem;
+    width: 80.5%;
 }
 
 .footerbanner {
     padding-top:4rem;
-    padding-left:6rem;
 }
 
 .information {
     font-size: 1rem;
     margin-top: 0;
-    margin-left: 1.35rem
+    margin-left: 7.35rem
 }
 
 .info {
@@ -496,13 +507,16 @@ h2 {
 }
 
 .social {
-    padding-right: 16.6rem;
+    padding-right: 10.8rem;
     line-height: 2rem;
 }
 
 
 .socialtext {
-    padding-left: 1rem;
     line-height: 1.9rem;
+}
+
+.fa {
+    min-width: 1.6rem;
 }
 }
