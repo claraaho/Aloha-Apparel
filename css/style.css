@@ -362,15 +362,12 @@ a:hover {
     margin: 1rem 7.4rem 1.15rem;
 }
 
-.information {
-    float: left;
-    margin-left: 1.5rem;
+.information {    
     margin-bottom: 1.5rem;
     text-align: left;
 }
 
-.social {
-    float: right;
+.social {    
     text-align: left;
 }
 
@@ -498,12 +495,13 @@ h2 {
 
 .footerbanner {
     padding-top:4rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .information {
     font-size: 1rem;
     margin-top: 0;
-    margin-left: 7.35rem
 }
 
 .info {
@@ -520,7 +518,6 @@ h2 {
 }
 
 .social {
-    padding-right: 10.8rem;
     line-height: 2rem;
 }
 
