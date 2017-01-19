@@ -134,7 +134,7 @@ html {
 /*        margin-bottom: 3rem;*/
 }
 
-.container {
+.bannercontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -437,23 +437,27 @@ a:hover {
 }
 /*Desktop Sized Viewport*/
 @media screen and (min-width: 700px) {
-h2 {
+/*h2 {
     font-size: 2.4rem;
 }
-
+*/
 html {
     font-size: 16px;
 }
 
+.headerwrapper {
+    padding: 0 0.7rem;
+}
+
 .aloha-logo {
     width: 11.3%;
-    margin: 1rem 4% 1.15rem 8.3%;
+    margin: 0.95rem 4% 0.94rem 8.2%;
 }
 
 /* Shopping cart icon */
 .cart-icon {
-    width: 4.4%;
-    margin: 1rem 7.35rem 1.15rem;
+    width: 4.35%;
+    margin: 0.95rem 7.35rem 1rem;
 }
 
 .banner{
@@ -462,100 +466,124 @@ html {
         url(../images/banner-girl.png) no-repeat,
         url(../images/flower-bkgd.jpg) repeat-x;
     background-position: 50% 0rem, center 3.72rem;
-    background-size: cover, 17.65%, contain;
+    background-size: cover, 17.4%, contain;
     height: 550px;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
-.collection {
-    padding-top: 13.8rem;
-    font-size: 1.25rem;
+.bannercontainer {
+    margin: 0 auto;
+    width: 825px;
+    padding-top: 7.1rem;
 }
+
+/*.collection {
+    font-size: 1.25rem;
+}*/
 
 .spring {
     font-size: 4rem;
-    padding-top: 0.5rem;
+    margin-top: 0.9rem;
 }
 
 .companyinfo {
-    margin-top: 3.9rem;
+/*    margin-top: 3.9rem;*/
     padding-left: 23rem;
     padding-right: 23rem;
 }
 
 .shopcontent {
-    font-size: 1.15rem;
-    line-height: 2.4rem;
-}
-
-.border {
-    margin-top: 3.4rem;
+    line-height: 2.3rem;
+    padding: 1.5rem 1rem;
 }
 
 .lovedproducts {
-    margin-top: 4rem;
+    padding-top: 0;
+}
+
+.merchlist {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+li {
+    text-align: center;
 }
 
 .picture {
     width: 73%;
 }
 
-.type {
-    font-size: 0.75rem;
-}
-
 .title {
     width: 70%;
     margin: 0 auto;
-    font-size: 1.5rem;
 }
 
-.price {
-    font-size: 1rem;
+.type {
+    margin: 0.85rem 0 0.9rem 0;
+}
+
+.merchandisewrapper {
+    padding: 4rem 0 1.15rem 0;
 }
 
 .waves {
     height: 344.5px;
+    margin-top: 0;
 }
 
-.container {
-    margin: 0 auto;
-    width: 825px;
+.waveswrapper {
+    padding: 1.3rem 18rem 0 18rem;
 }
 
 .updates {
-    padding-top: 4.1rem;
+    padding-top: 0;
 }
 
 .wavescontent {
-    font-size: 1.15rem;
-    margin: 1.5rem auto;
+/*    font-size: 1.15rem;
+    margin: 1.5rem auto;*/
     line-height: 2.25rem;
-    width: 80.5%;
+/*    width: 80.5%;*/
+    padding: 0 5.4rem;
+}
+
+.submitwrapper {
+    margin: 1.4rem 2rem 0 1.5rem;
 }
 
 .inputbox {
-    margin-left: 9rem;
-    padding-left: 2rem;
+/*    margin-left: 9rem;*/
+/*    padding-left: 2rem;*/
+    padding-right: 9rem;
+    width: 32.5%;
 }
 
 .subscribe {
     width: 15%;
-    height: 2.2rem;
-    right: 5.2rem;
-    top: 0.16rem;
+    height: 2.7rem;
+    right: 12.9rem;
+    top: 0.15rem;
 }
 
 
 .footerbanner {
-    padding-top:4rem;
+    padding-top: 4rem;
+    /*display: flex;*/
+/*    justify-content: space-around;*/
+}
+
+.footerwrapper {
+    padding-top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 11.5rem 0 8rem;
 }
 
 .information {
-    font-size: 1rem;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .info {
@@ -573,14 +601,21 @@ html {
 
 .social {
     line-height: 2rem;
+    margin-bottom: 4.4rem;
 }
 
+.socialcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
 
 .socialtext {
-    line-height: 1.9rem;
+    line-height: 2rem;
 }
 
 .fa {
-    min-width: 1.6rem;
+    min-width: 1.8rem;
+    text-align: left;
 }
 }
