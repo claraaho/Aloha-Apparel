@@ -569,7 +569,7 @@ li {
         url(../images/banner-girl.png) no-repeat,
         url(../images/flower-bkgd.jpg) repeat-x;
     background-position: 50% 0rem, center 3.72rem;
-    background-size: cover, 20.2%, contain;
+    background-size: cover, 250px, contain;
     height: 550px;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
