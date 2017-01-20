@@ -102,6 +102,10 @@ html {
     font-size: 14px;
 }
 
+h1 {
+    display: none;
+}
+
 /* Header wrapper containing aloha and cart icons*/
 .headerwrapper {
     display: flex;
@@ -110,14 +114,14 @@ html {
 }
 
 /* Aloha Apparel logo */ 
-.aloha-logo {
-    width: 26.2%;
+.alohalogo {
+    width: 8.5rem;
     height: 4rem;
 }
 
 /* Shopping cart icon */
-.cart-icon {
-    width: 11%;
+.carticon {
+    width: 3.5rem;
     height: 4rem;
     padding-top: 0.1rem;
 }
@@ -131,7 +135,6 @@ html {
         background-size: contain, 10.75rem, cover;
         height: 400px;
         position: relative;
-/*        margin-bottom: 3rem;*/
 }
 
 .bannercontainer {
@@ -140,17 +143,12 @@ html {
     justify-content: center;
     align-items: center;
     height: 300px;
-    padding-top: 3.3rem;
+    padding-top: 2rem;
     line-height:3.3rem;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
-/*.companyinfo {
-    margin-top: 3.6rem;
-}*/
-
 .collection{
-/*    padding-top: 10.25rem;*/
     font-size: 1.25rem;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -159,7 +157,6 @@ html {
 
 .spring{
     font-size: 2.5rem;
-/*    margin: 1.2px;*/
     color: #FFFFFF;
     font-family: 'playfair_regular', 'Times New Roman', serif;
 }
@@ -177,9 +174,6 @@ span {
 
 .handcrafted {
     font-family: 'playfair_bold', 'Times New Roman', serif;
-/*    margin-top: 2.3rem;
-    margin-bottom: 0.9rem;*/
-/*    color: #2d2d2d;*/
     font-size: 2.4rem;
 }
 
@@ -187,10 +181,8 @@ span {
 .shopcontent {
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 1.15rem;
-/*    text-align: center;*/
     padding: 1.5rem 0.5rem;
     line-height: 2.3rem;
-/*    color: #2d2d2d;*/
 }
 
 .merchandise {
@@ -199,8 +191,6 @@ span {
 
 h2 {    
     font-size: 2.1rem;
-/*    text-align: center;*/
-/*    margin-bottom: 1rem;*/
 }
 
 h3 {
@@ -211,7 +201,6 @@ h3 {
 /* Merchandise section */ 
 .border {
     border-top: 1px solid #d7d7d7;
-/*    margin-top: 2.9rem;*/
 }
 
 .merchandisewrapper {
@@ -299,7 +288,7 @@ li {
 .wavescontent {
     font-size: 1.15rem;
     text-align: center;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem;
     line-height: 2.3rem;
     font-family: 'ralewaylight', 'Arial', sans-serif;
 }
@@ -307,9 +296,9 @@ li {
 form {
     position: relative;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 1.8rem 2rem 0 1.5rem;
+    justify-content: space-between;
+    width: 25rem;
+    margin: 1.8rem 1.5rem 0 1.5rem;
 }
 
 .inputbox {
@@ -320,16 +309,14 @@ form {
     height: 2.9rem;
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 1rem;
-    display: block;
-    padding-left: 2rem;
+/*    display: block;*/
+    padding-left: 1.5rem;
+    padding-right: 8rem;
 }
-/*.container {
-    margin: 0 auto;
-}*/
 
 .subscribe {
-    width: 23%;
-    height: 2.5rem;
+    width: 7rem;
+    height: 2.7rem;
     border: none;
     background-color: #e2574c;
     border-radius: 100rem;
@@ -337,8 +324,8 @@ form {
     font-family: 'ralewaymedium', 'Arial', sans-serif;
     font-size: 1rem;
     position: absolute;
-    right: 2.6rem;
-    top: 0.3rem;
+    right: 0.2rem;
+    top: 0.17rem;
 }
 
 /* Footer Banner */
@@ -355,7 +342,6 @@ form {
     padding-top: 4rem;
     color: #FFF;
 }
-
 
 .information {
     text-align: center;
@@ -400,190 +386,127 @@ a:hover {
     color: #b64036;
 }
 
-/*Tablet Sized Viewport*/
-@media screen and (min-width: 480px) {
-.aloha-logo {
-    width: 11.3%;
-    margin: 1rem 4% 1.15rem 8.3%;
-}
-
-.cart-icon {
-    width: 4.4%;
-    margin: 1rem 7.4rem 1.15rem;
-}
-
-.information {    
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
-
-.social {    
-    text-align: left;
-}
-
-.socialtext {
-    display: inline-block;
-    font-family: 'ralewaylight', 'Arial', sans-serif;
-    line-height: 1rem;
-}
-
-.socialcontent {
-    display: block
-}
-
-.sociallist {
-    text-align: left;
-}
-}
-/*Desktop Sized Viewport*/
-@media screen and (min-width: 700px) {
-/*h2 {
-    font-size: 2.4rem;
-}
-*/
+/*Tablet Sized Viewport @ 600 */
+@media screen and (min-width: 600px) {
 html {
     font-size: 16px;
 }
 
 .headerwrapper {
-    padding: 0 0.7rem;
+    padding: 1.2rem 1rem;
 }
 
-.aloha-logo {
-    width: 11.3%;
-    margin: 0.95rem 4% 0.94rem 8.2%;
+.alohalogo {
+    width:10.5rem;
 }
 
-/* Shopping cart icon */
-.cart-icon {
-    width: 4.35%;
-    margin: 0.95rem 7.35rem 1rem;
-}
-
-.banner{
-    background: 
-        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
-        url(../images/banner-girl.png) no-repeat,
-        url(../images/flower-bkgd.jpg) repeat-x;
-    background-position: 50% 0rem, center 3.72rem;
-    background-size: cover, 17.4%, contain;
-    height: 550px;
-    text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
+.carticon {
+    width: 4.5rem;
 }
 
 .bannercontainer {
-    margin: 0 auto;
-    width: 825px;
-    padding-top: 7.1rem;
+    padding-top: 3rem;
 }
 
-/*.collection {
-    font-size: 1.25rem;
-}*/
+.collection {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
 
 .spring {
-    font-size: 4rem;
-    margin-top: 0.9rem;
+    font-size: 3.5rem;
 }
 
-.companyinfo {
-/*    margin-top: 3.9rem;*/
-    padding-left: 23rem;
-    padding-right: 23rem;
+.infowrapper {
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.handcrafted {
+    font-size: 2.75rem;
 }
 
 .shopcontent {
-    line-height: 2.3rem;
-    padding: 1.5rem 1rem;
+    font-size: 1.33rem;
+    padding: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.border {
+    margin-bottom: 4.6rem;
 }
 
 .lovedproducts {
-    padding-top: 0;
+    font-size: 2.75rem;
+    padding-top: 4.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .merchlist {
     flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 0 2%;
 }
 
 li {
-    text-align: center;
+    width: 50%;
 }
 
 .picture {
-    width: 73%;
-}
-
-.title {
-    width: 70%;
-    margin: 0 auto;
+    width: 16rem;
 }
 
 .type {
-    margin: 0.85rem 0 0.9rem 0;
+    margin-top: 0.95rem;
+    font-size: 0.85rem;
 }
 
-.merchandisewrapper {
-    padding: 4rem 0 1.15rem 0;
+.title {
+    font-size: 1.7rem;
+/*    margin-top:;*/
+}
+
+.price {
+    font-size: 1.13rem;
+    margin-top: 1.7rem;
+    margin-bottom: 4rem;
 }
 
 .waves {
-    height: 344.5px;
-    margin-top: 0;
-}
-
-.waveswrapper {
-    padding: 1.3rem 18rem 0 18rem;
+    height: 377.5px;
 }
 
 .updates {
-    padding-top: 0;
+    font-size: 2.75rem;
+    padding-top: 4rem;
 }
 
-.wavescontent {
-/*    font-size: 1.15rem;
-    margin: 1.5rem auto;*/
-    line-height: 2.25rem;
-/*    width: 80.5%;*/
-    padding: 0 5.4rem;
+.wavescontent{
+    padding: 1rem 0.7rem;
+    margin: 0 0;
+    font-size: 1.32rem;
+    line-height: 2.5rem;
 }
-
-.submitwrapper {
-    margin: 1.4rem 2rem 0 1.5rem;
-}
-
-.inputbox {
-/*    margin-left: 9rem;*/
-/*    padding-left: 2rem;*/
-    padding-right: 9rem;
-    width: 32.5%;
-}
-
-.subscribe {
-    width: 15%;
-    height: 2.7rem;
-    right: 12.9rem;
-    top: 0.15rem;
-}
-
 
 .footerbanner {
     padding-top: 4rem;
-    /*display: flex;*/
-/*    justify-content: space-around;*/
+    padding-bottom: 1rem;
 }
 
 .footerwrapper {
-    padding-top: 0;
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
-    padding: 0 11.5rem 0 8rem;
 }
 
 .information {
     margin-top: 0;
     margin-bottom: 0;
+    text-align: left;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
 }
 
 .info {
@@ -612,6 +535,207 @@ li {
 
 .socialtext {
     line-height: 2rem;
+    display: inline-block;
+    font-size: 1.15rem;
+    font-family: "ralewaylight", "Arial", sans-serif;
+}
+
+.fa {
+    min-width: 1.8rem;
+    text-align: left;
+}
+
+}
+/*Desktop Sized Viewport @ 1240 */
+@media screen and (min-width: 1240px) {
+.headerwrapper {
+    padding: 0 0.7rem;
+}
+
+.alohalogo {
+    width: 160px;
+    margin: 0.95rem 4% 0.94rem 1.2%;
+}
+
+/* Shopping cart icon */
+.carticon {
+    width: 62px;
+    margin: 0.95rem 0.5rem 1rem;
+}
+
+.banner{
+    background: 
+        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
+        url(../images/banner-girl.png) no-repeat,
+        url(../images/flower-bkgd.jpg) repeat-x;
+    background-position: 50% 0rem, center 3.72rem;
+    background-size: cover, 20.2%, contain;
+    height: 550px;
+    text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
+}
+
+.bannercontainer {
+    margin: 0 auto;
+    width: 825px;
+    padding-top: 7.2rem;
+}
+
+.collection {
+    margin-bottom: 0.5rem;
+}
+
+.spring {
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+
+.companyinfo {
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+
+.infowrapper {
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.handcrafted {
+    font-size: 2.4rem;
+}
+
+.shopcontent {
+    line-height: 2.3rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.15rem;
+}
+
+.border {
+    margin-bottom: 0;
+}
+
+.lovedproducts {
+    padding-top: 0;
+    font-size: 2.4rem;
+    padding-bottom: 3.1rem;
+}
+
+.merchlist {
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+li {
+    text-align: center;
+}
+
+.picture {
+    width: 79%;
+}
+
+.type {
+    margin: 0.85rem 0 0.9rem 0;
+    font-size: 0.75rem;
+}
+
+.title {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 1rem;   
+}
+
+.merchandisewrapper {
+    padding: 4rem 0 0.4rem 0;
+}
+
+.waves {
+    height: 344.5px;
+    margin-top: 0;
+}
+
+.waveswrapper {
+    padding: 1.1rem 18rem 0 18rem;
+}
+
+.updates {
+    padding-top: 0;
+    font-size: 2.4rem;
+}
+
+.wavescontent {
+    line-height: 2.25rem;
+    margin: 0.5rem 1rem;
+    padding: 0 5.3rem;
+    min-width: 671px;
+    font-size: 1.15rem;
+}
+
+form {
+    width: 41rem;
+    margin: 1.5rem 2rem 0 13.5rem;
+}
+
+.inputbox {
+    padding-right: 9rem;
+    width: 18.3rem;
+}
+
+.subscribe {
+    width: 7rem;
+    height: 2.7rem;
+    right: 12.45rem;
+    top: 0.15rem;
+}
+
+.footerbanner {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+}
+
+.footerwrapper {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 0 1.5rem;
+}
+
+.information {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.info {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
+.location {
+    line-height: 1.5rem;
+}
+
+.social {
+    line-height: 2rem;
+    margin-bottom: 0;
+}
+
+.socialcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.socialtext {
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 .fa {
