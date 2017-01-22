@@ -8,14 +8,15 @@
     <script src="https://use.fontawesome.com/0495204cae.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.min.css" media="screen">
 </head>
 
 <body>
     <h1 class="screen-reader">Aloha</h1>
     <header>
-        <div class="headerwrapper">
-            <img class="alohalogo" src="images/aloha-logo.svg" alt="The Aloha Apparel logo">
-            <img class="carticon" src="images/cart-icon.svg" alt="Shopping cart">
+        <div class="header-wrapper">
+            <img class="aloha-logo" src="images/aloha-logo.svg" alt="The Aloha Apparel logo">
+            <img class="cart-icon" src="images/cart-icon.svg" alt="Shopping cart">
             <nav>
                 <ul class="menu">
                     <li><a href="#about">about</a>
@@ -29,97 +30,119 @@
                 </ul>
             </nav>
         </div>
-        <div class="whitespace"></div>
+        <div class="white-space"></div>
     </header>
 
     <section class="hero-banner">
-        <div class="bannercontainer">
+        <div class="banner-container">
             <h2 class="collection">New Collection</h2>
             <h2 class="spring">Spring/Summer 2016</h2>
         </div>
     </section>
 
-    <section class="companyinfo">
-        <div class="infowrapper">
+    <section class="company-info">
+        <div class="info-wrapper">
             <h2 class="handcrafted"><span>Hand-Crafted</span> Styles</h2>
-            <p class="shopcontent">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+            <p class="shop-content">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
         </div>
     </section>
 
     <section class="products-category">
-        <div class="picture-wrapper long">
+        <div class="picture-wrapper long men">
             <p class="category-text">men's</p>
             <img class="long-pictures" src="images/mens-category.jpg" alt="Mens category">
         </div>
-        <div class="square-wrapper">
-        <div class="picture-wrapper square">
+        <div class="picture-wrapper square top-pics">
             <p class="category-text">trends</p>
             <img class="square-pictures" src="images/trends-category.jpg" alt="Trends category">
         </div>
-        <div class="picture-wrapper square">
+        <div class="picture-wrapper square top-pics">
             <p class="category-text">glasses</p>
             <img class="square-pictures" src="images/glasses-category.jpg" alt="Glasses category">
         </div>
-        <div class="picture-wrapper square">
+        <div class="picture-wrapper square bottom-pics">
             <p class="category-text">sale</p>
             <img class="square-pictures" src="images/sale-category.jpg" alt="Sale category">
         </div>
-        <div class="picture-wrapper square">
+        <div class="picture-wrapper square bottom-pics">
             <p class="category-text">bags</p>
             <img class="square-pictures" src="images/bags-category.jpg" alt="Bags category">
         </div>
-        </div>
-        <div class="picture-wrapper long">
+        <div class="picture-wrapper long women">
             <p class="category-text">women's</p>
             <img class="long-pictures" src="images/womens-category.jpg" alt="Womens category">
         </div>
     </section>
 
     <section class="featured-products">
-        <div class="merchandisewrapper">
-            <h2 class="lovedproducts"><span>Most-Loved</span> Products</h2>
-            <ul class="merchlist">
-                <li>
-                    <img class="picture" src="images/stretch-knit-dress.jpg" alt="A stretch knit dress">
+        <div class="merchandise-wrapper">
+            <h2 class="loved-products"><span>Most-Loved</span> Products</h2>
+            <ul class="merch-list carousel">
+                <li class="picture-list">
+                    <img class="product-picture" src="images/stretch-knit-dress.jpg" alt="A stretch knit dress">
                     <p class="type">dresses</p>
                     <h3 class="title">Stretch Knit Dress</h3>
                     <p class="price">$169.00</p>
                 </li>
-                <li>
-                    <img class="picture" src="images/cotton-blue-shirt.jpg" alt="Cotton blue shirt">
+                <li class="picture-list">
+                    <img class="product-picture" src="images/cotton-blue-shirt.jpg" alt="Cotton blue shirt">
                     <p class="type">shirts</p>
                     <h3 class="title">Cotton Blue Shirt</h3>
                     <p class="price">$89.00</p>
                 </li>
-                <li>
-                    <img class="picture" src="images/checked-stretch-dress.jpg" alt="Checked Stretch dress">
+                <li class="picture-list">
+                    <img class="product-picture" src="images/checked-stretch-dress.jpg" alt="Checked Stretch dress">
                     <p class="type">dresses</p>
                     <h3 class="title">Checked Stretch Dress</h3>
                     <p class="price">$129.00</p>
                 </li>
-                <li>
-                    <img class="picture" src="images/blue-hipster-backpack.jpg" alt="Blue hipster backpack">
+                <li class="picture-list">
+                    <img class="product-picture" src="images/blue-hipster-backpack.jpg" alt="Blue hipster backpack">
                     <p class="type">bags</p>
                     <h3 class="title">Blue Hipster Backpack</h3>
                     <p class="price">$69.00</p>
+                </li>
+                <li class="picture-list">
+                    <img class="product-picture" src="images/demin-overall-shorts.jpg" alt="Denim overall shorts">
+                    <p class="type">denim</p>
+                    <h3 class="title">Denim Overall Shorts</h3>
+                    <p class="price">$89.00</p>
+                </li>
+                <li class="picture-list">
+                    <img class="product-picture" src="images/pink-dotted-dress.jpg" alt="A pink dotted dress">
+                    <p class="type">dresses</p>
+                    <h3 class="title">Pink Dotted Dress</h3>
+                    <p class="price">$99.00</p>
+                </li>
+                <li class="picture-list">
+                    <img class="product-picture" src="images/blue-silk-dress.jpg" alt="A blue silk dress">
+                    <p class="type">dresses</p>
+                    <h3 class="title">Blue Silk Dress</h3>
+                    <p class="price">$119.00</p>
+                </li>
+                <li class="picture-list">
+                    <img class="product-picture" src="images/cotton-yellow-tshirt.jpg" alt="Cotton yellow tshirt">
+                    <p class="type">shirts</p>
+                    <h3 class="title">Cotton Yellow Tshirt</h3>
+                    <p class="price">$39.00</p>
                 </li>
             </ul>
         </div>
     </section>
 
     <section class="waves">
-        <div class="waveswrapper">
+        <div class="waves-wrapper">
             <h2 class="updates"><span>Sign-up for</span> Updates</h2>
-            <p class="wavescontent">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-            <form class="submitwrapper">
-                <input class="inputbox" type="text" value placeholder="Your Email" />
+            <p class="waves-content">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+            <form class="submit-wrapper">
+                <input class="input-box" type="text" value placeholder="Your Email" />
                 <input class="subscribe" type="submit" value="Subscribe" />
             </form>
         </div>
     </section>
 
-    <footer class="footerbanner">
-        <div class="footerwrapper">
+    <footer class="footer-banner">
+        <div class="footer-wrapper">
             <div class="information">
                 <div class="info">
                     <p>&copy; 2016 Aloha Apparel Co.</p>
@@ -134,30 +157,32 @@
                     <p>Vancouver, BC, Canada</p>
                 </div>
             </div>
-            <!-- Social media portion for desktop view -->
+
             <div class="social">
-                <ul class="sociallist">
-                    <li class="socialcontent"><i class="fa fa-facebook"></i>
-                        <p class="socialtext">Facebook</p>
+                <ul class="social-list">
+                    <li class="social-content"><i class="fa fa-facebook"></i>
+                        <p class="social-text">Facebook</p>
                     </li>
-                    <li class="socialcontent"><i class="fa fa-twitter"></i>
-                        <p class="socialtext">Twitter</p>
+                    <li class="social-content"><i class="fa fa-twitter"></i>
+                        <p class="social-text">Twitter</p>
                     </li>
-                    <li class="socialcontent"><i class="fa fa-instagram"></i>
-                        <p class="socialtext">Instagram</p>
+                    <li class="social-content"><i class="fa fa-instagram"></i>
+                        <p class="social-text">Instagram</p>
                     </li>
-                    <li class="socialcontent"><i class="fa fa-pinterest"></i>
-                        <p class="socialtext">Pinterest</p>
+                    <li class="social-content"><i class="fa fa-pinterest"></i>
+                        <p class="social-text">Pinterest</p>
                     </li>
-                    <li class="socialcontent"><i class="fa fa-google-plus"></i>
-                        <p class="socialtext">Google+</p>
+                    <li class="social-content"><i class="fa fa-google-plus"></i>
+                        <p class="social-text">Google+</p>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
     <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 </body>
 
 </html>
