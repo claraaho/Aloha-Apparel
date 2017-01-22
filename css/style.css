@@ -188,8 +188,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 300px;
-    padding-top: 3rem;
-    line-height:3.1rem;
+    padding-top: 3.5rem;
+    line-height: 2.9rem;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
@@ -223,12 +223,16 @@ span {
     font-family: 'playfair_italic', 'Times New Romans', serif;
 }
 
-/* Aloha Apparel webpage info text*/
-.shop-content {
+/* Styling for text within the body */
+.body-text{
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 1.15rem;
-    padding: 1.5rem 0.8rem;
     line-height: 2.3rem;
+}
+
+/* Aloha Apparel webpage info text*/
+.shop-content {
+    padding: 1.5rem 0.8rem;
 }
 
 /* Section that contains the product categories */
@@ -317,14 +321,18 @@ li {
     display: inline-block;
 }
 
+/* Font style for featured product info text */
+.product-font {
+    font-family: 'ralewaymedium', 'Arial', sans-serif;
+    color: #969696;
+}
+
 /* Styling for the type of merchandise text */
 .type {
     text-transform: uppercase;
     text-align: center;
     margin-top: 0.85rem;
     font-size: 0.75rem;
-    font-family: 'ralewaymedium', 'Arial', sans-serif;
-    color: #969696;
 }
 
 /* Styling for the title of merchandise text */
@@ -340,8 +348,6 @@ li {
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 3.5rem;
-    color: #969696;
-    font-family: 'ralewaymedium', 'Arial', sans-serif;
 }
 
 /* Waves/Sign-up Section */
@@ -377,11 +383,8 @@ li {
 /* Update/Subscribe info text */
 .waves-content {
     max-width: 550px;
-    font-size: 1.15rem;
     text-align: center;
     margin: 0.5rem 1rem;
-    line-height: 2.3rem;
-    font-family: 'ralewaylight', 'Arial', sans-serif;
 }
 
 /* Form wrapper for the email box */
@@ -443,13 +446,8 @@ form {
     margin-bottom: 2.4rem;
 }
 
-/* Aloha Apparel Webtools  info */
-.info {
-    margin-bottom: 0.9rem;
-}
-
-/* Aloha Apparel contact info */
-.contact {
+/* Aloha Apparel Webtools and Contact info */
+.info-contact {
     margin-bottom: 0.9rem;
 }
 
@@ -615,20 +613,15 @@ a:hover {
         text-align: left;
     }
 
-    .info {
-        margin-bottom: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .contact {
+    .info-contact {
         margin-bottom: 1rem;
     }
 
-    .location {
+    .info-location {
         line-height: 1.5rem;
     }
 
-    .social {
+    .social-media {
         line-height: 2rem;
         margin-bottom: 0;
     }
@@ -767,7 +760,6 @@ a:hover {
         margin: 0.5rem 1rem;
         padding: 0 5.3rem;
         min-width: 671px;
-        font-size: 1.15rem;
     }
 
     form {
@@ -797,44 +789,5 @@ a:hover {
         display: flex;
         justify-content: space-between;
         padding: 0 5rem 0 1.5rem;
-    }
-
-    .information-wrapper {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1rem;
-    }
-
-    .info {
-        margin-bottom: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .contact {
-        margin-bottom: 1rem;
-    }
-
-    .location {
-        line-height: 1.5rem;
-    }
-
-    .social {
-        line-height: 2rem;
-        margin-bottom: 0;
-    }
-
-    .social-content {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-    }
-
-    .social-text {
-        line-height: 2rem;
-        font-size: 1rem;
-    }
-
-    .fa {
-        text-align: left;
     }
 }
