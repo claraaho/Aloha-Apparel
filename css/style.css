@@ -5,9 +5,9 @@
     font-family: 'playfair_regular';
     src: url('../fonts/playfairdisplay-regular-webfont.eot');
     src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+    url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,9 +17,9 @@
     font-family: 'playfair_bold';
     src: url('../fonts/playfairdisplay-bold-webfont.eot');
     src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+    url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,9 +29,9 @@
     font-family: 'playfair_italic';
     src: url('../fonts/playfairdisplay-italic-webfont.eot');
     src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+    url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -41,9 +41,9 @@
     font-family: 'playfair_bold_italic';
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+    url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -54,9 +54,9 @@
     font-family: 'ralewaylight';
     src: url('../fonts/raleway-light-webfont.eot');
     src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+    url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -66,9 +66,9 @@
     font-family: 'ralewaylight_italic';
     src: url('../fonts/raleway-lightitalic-webfont.eot');
     src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+    url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -78,9 +78,9 @@
     font-family: 'ralewaymedium';
     src: url('../fonts/raleway-medium-webfont.eot');
     src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+    url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -90,9 +90,9 @@
     font-family: 'ralewaymedium_italic';
     src: url('../fonts/raleway-mediumitalic-webfont.eot');
     src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+    url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -116,7 +116,7 @@ h3 {
     text-align: center;
 }
 
-/* Header wrapper containing aloha and cart icons*/
+/* Header with Aloha, cart, and nav menu*/
 .header-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +130,7 @@ h3 {
     width: 100%;
 }
 
+/* Div with whitespace to push hero banner down */
 .white-space {
     width: 100%;
     height: 105px;
@@ -148,6 +149,7 @@ h3 {
     margin-right: 1.5rem;
 }
 
+/* navigation bar for webpage menu */
 nav {
     display: flex;
     align-items: center;
@@ -161,6 +163,7 @@ nav {
     font-family: 'ralewaymedium', 'Arial', sans-serif;
 }
 
+/* Anchor links in the webpage menu */
 .menu a {
     color: #e2574c;
     padding: 0 1rem;
@@ -170,14 +173,15 @@ nav {
 /* Hero/flower girl Banner */
 .hero-banner{
     background: 
-        linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
-        url(../images/banner-girl.png) no-repeat center 60px,
-        url(../images/flower-bkgd.jpg) repeat-x center top;
-        background-size: contain, 10.75rem, cover;
-        height: 400px;
-        position: relative;
+    linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
+    url(../images/banner-girl.png) no-repeat center 60px,
+    url(../images/flower-bkgd.jpg) repeat-x center top;
+    background-size: contain, 10.75rem, cover;
+    height: 400px;
+    position: relative;
 }
 
+/* Container to style text within hero banner */
 .banner-container {
     display: flex;
     flex-direction: column;
@@ -189,6 +193,7 @@ nav {
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
+/* The Collection text */
 .collection{
     font-size: 1.25rem;
     color: #FFFFFF;
@@ -196,6 +201,7 @@ nav {
     font-family: 'ralewaymedium', 'Arial', serif;
 }
 
+/* The apparel season text */
 .spring{
     width: 77%;
     text-align: center;
@@ -204,6 +210,7 @@ nav {
     font-family: 'playfair_regular', 'Times New Roman', serif;
 }
 
+/* Wrapper containing Aloha Apparel webpage info */
 .info-wrapper {
     text-align: center;
     padding-top: 4rem;
@@ -211,11 +218,12 @@ nav {
     color: #2d2d2d;
 }
 
+/* Used for the italic portions of the phrase */
 span {
     font-family: 'playfair_italic', 'Times New Romans', serif;
 }
 
-/*Writing inside the body*/
+/* Aloha Apparel webpage info text*/
 .shop-content {
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 1.15rem;
@@ -223,6 +231,7 @@ span {
     line-height: 2.3rem;
 }
 
+/* Section that contains the product categories */
 .products-category {
     display: inline-flex;
     flex-wrap: wrap;
@@ -230,6 +239,7 @@ span {
     align-content: space-between;
 }
 
+/* Wrapper that contains the product category pictures */
 .picture-wrapper {
     position: relative;
     display: flex;
@@ -238,32 +248,40 @@ span {
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%);
 }
 
-.long {
+/* Styling for the long pictures and text within them */
+.long-wrapper {
     width: 100%;
 }
 
+/* Styling for the long pictures themselves */
 .long-pictures {
     width: 100%;
     z-index: -1;
 }
 
-.square {
+/* Styling for the square pictures and text within them */
+.square-wrapper {
     width: 49%;
 }
 
+/* Styling for the square pictures themselves */
 .square-pictures {
     width: 100%;
     z-index: -1;
 }
 
+/* Styling for the top row of square pictures */
 .top-pics {
     margin: 0.5rem 0;
 }
 
+
+/* Styling for the bottom row of square pictures */
 .bottom-pics {
     margin-bottom: 0.5rem;
 }
 
+/* The text within the product category pictures */
 .category-text {
     position: absolute;
     font-family: "ralewaymedium", "Arial", sans-serif;
@@ -273,34 +291,33 @@ span {
     text-shadow: 2px 2px 4px #646464;
 }
 
-.merchandise {
-    border-top: 1px solid #d7d7d7;
-}
-
+/* Wrapper that contains loved products and merch pictures/info  */
 .merchandise-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Styling for the Most Loved Products text */
 .loved-products {
     padding-top: 4rem;
     padding-bottom: 4.5rem;
     color: #2d2d2d;
 }
 
-/*Merchandise list*/
+/* Unordered list with the product pictures and info */
 .merch-list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* List element */
 li {
     display: inline-block;
 }
 
-/* Type of merchandise made all uppercase */
+/* Styling for the type of merchandise text */
 .type {
     text-transform: uppercase;
     text-align: center;
@@ -310,13 +327,14 @@ li {
     color: #969696;
 }
 
-/* Title of merchandise color change*/
+/* Styling for the title of merchandise text */
 .title{
     color: #e2574c;
     font-family: 'playfair_regular', 'Arial', sans-serif;
     margin-top: 1.2rem;
 }
 
+/* Styling for the price of merchandise text */
 .price {
     font-size: 1rem;
     text-align: center;
@@ -326,7 +344,7 @@ li {
     font-family: 'ralewaymedium', 'Arial', sans-serif;
 }
 
-/* Footer banner background */
+/* Waves/Sign-up Section */
 .waves {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.09) 0%, rgba(0,0,0,0.2) 100%),
@@ -336,6 +354,7 @@ li {
   margin-top: 0.95rem;
 }
 
+/* Wrapper for content within the waves section */
 .waves-wrapper {
     display: flex;
     flex-direction: column;
@@ -348,12 +367,14 @@ li {
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
+/* Styling for the Sign-up/Updates text */
 .updates {
     margin-bottom: 0.5rem;
     padding-top: 0.5rem;
     text-shadow: 2px 2px 4px #646464;
 }
 
+/* Update/Subscribe info text */
 .waves-content {
     max-width: 550px;
     font-size: 1.15rem;
@@ -363,6 +384,7 @@ li {
     font-family: 'ralewaylight', 'Arial', sans-serif;
 }
 
+/* Form wrapper for the email box */
 form {
     position: relative;
     display: flex;
@@ -371,6 +393,7 @@ form {
     margin: 1rem 1.5rem 0 1.5rem;
 }
 
+/* Input box for the email box */
 .input-box {
     outline: none;
     border: none;
@@ -383,6 +406,7 @@ form {
     padding-right: 10rem;
 }
 
+/* Subscribe button in the email box */
 .subscribe {
     width: 8rem;
     height: 2.5rem;
@@ -395,10 +419,10 @@ form {
     position: absolute;
     right: 0.2rem;
     top: 0.25rem;
+    outline: none;
 }
 
-/* Footer Banner */
-
+/* Footer: Information/Social media section */
 .footer-banner {
     width: 100%;
     position: absolute;
@@ -410,7 +434,8 @@ form {
     text-align: center;
 }
 
-.information {
+/* Wrapper containing the Location/Contact info  */
+.information-wrapper {
     text-align: center;
     line-height: 1.5rem;
     font-family: 'playfair_regular', 'Times New Roman',serif;
@@ -418,397 +443,398 @@ form {
     margin-bottom: 2.4rem;
 }
 
+/* Aloha Apparel Webtools  info */
 .info {
     margin-bottom: 0.9rem;
 }
 
+/* Aloha Apparel contact info */
 .contact {
     margin-bottom: 0.9rem;
 }
 
+/* Aloha Apparel location info */
 .location {
     color: #969696;
 }
 
-.social-text{
-    display: none;
-}
-
-.fa {
-    min-width: 1.8rem;
-}
-
+/* Styling for anchor link font in footer */
 a{
     color: #FFF;
 }
 
+/* Styling for anchor link hover effect in footer */
 a:hover {
     color: #b64036;
 }
 
+/* Social Media text */
+.social-text{
+    display: none;
+}
+
+/* Social Media icons */
+.fa {
+    min-width: 1.8rem;
+}
+
 /*Tablet Sized Viewport @ 600 */
 @media screen and (min-width: 600px) {
-html {
-    font-size: 16px;
-}
+    html {
+        font-size: 16px;
+    }
 
-.header-wrapper {
-    padding: 0.6rem 1rem;
-    flex-wrap: nowrap;
-}
+    .header-wrapper {
+        padding: 0.6rem 1rem;
+        flex-wrap: nowrap;
+    }
 
-.aloha-logo {
-    width: 7.5rem;
-}
+    .aloha-logo {
+        width: 7.5rem;
+    }
 
-.cart-icon {
-    width: 3rem;
-    order: 1;
-}
+    .cart-icon {
+        width: 3rem;
+        order: 1;
+        padding-right: 2rem;
+    }
 
-nav {
-    border: none;
-    margin-top: 0.8rem;
-    padding: 0 5rem 0 2rem;
-}
+    nav {
+        border: none;
+        margin-top: 0.8rem;
+        padding: 0 5rem 0 2rem;
+    }
 
-.menu {
-    display: flex;
-}
+    .menu {
+        display: flex;
+    }
 
-.menu a {
-    font-size: 0.9rem;
-    padding: 0 0.7rem;
-}
+    .menu a {
+        font-size: 0.9rem;
+        padding: 0 0.7rem;
+    }
 
-.white-space {
-    height: 83px;
-}
+    .white-space {
+        height: 83px;
+    }
 
-.hero-banner {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), url(../images/banner-girl.png) no-repeat center 60px, url(../images/flower-bkgd.jpg) repeat-x center top;
-    background-size: contain, 9.4rem, cover;
-}
+    .hero-banner {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), url(../images/banner-girl.png) no-repeat center 60px, url(../images/flower-bkgd.jpg) repeat-x center top;
+        background-size: contain, 9.4rem, cover;
+    }
 
-.banner-container {
-    padding-top: 2.5rem;
-}
+    .banner-container {
+        padding-top: 2.5rem;
+    }
 
-.collection {
-    margin-bottom: 0.5rem;
-}
+    .collection {
+        margin-bottom: 0.5rem;
+    }
 
-.spring {
-    font-size: 3rem;
-}
+    .spring {
+        font-size: 3rem;
+    }
 
-.shop-content {
-    max-width: 686px;
-    margin: 0 auto;
-}
+    .shop-content {
+        max-width: 686px;
+        margin: 0 auto;
+    }
 
-.long {
-    width: 49%;
-    height: 100%;
-}
+    .long-wrapper {
+        width: 49%;
+        height: 100%;
+    }
 
-.square {
-    width: 24.5%;
-    height: 100%;
-}
+    .square-wrapper {
+        width: 24.5%;
+        height: 100%;
+    }
 
-.top-pics {
-    margin: 0 0 0.5rem 0;
-}
+    .top-pics {
+        margin: 0 0 0.5rem 0;
+    }
 
-.bottom-pics {
-    margin: 0;
-}
+    .bottom-pics {
+        margin: 0;
+    }
 
-.category-text {
-    font-size: 1.8rem;
-}
+    .category-text {
+        font-size: 1.8rem;
+    }
 
-.featured-products {
-    margin-bottom: 4.6rem;
-}
+    .featured-products {
+        margin-bottom: 4.6rem;
+    }
 
-.merch-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    padding: 0 2%;
-}
+    .merch-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        padding: 0 2%;
+    }
 
-.picture-list {
-    width: 50%;
-}
+    .picture-list {
+        width: 50%;
+    }
 
-.product-picture {
-    width: 17.5rem;
-}
+    .product-picture {
+        width: 17.5rem;
+    }
 
-.waves {
-    height: 340px;
-}
+    .waves {
+        height: 340px;
+    }
 
-.updates {
-    padding-top: 2.5rem;
-}
+    .updates {
+        padding-top: 2.5rem;
+    }
 
-.waves-content{
-    padding: 1rem 0.8rem;
-    margin: 0 0;
-    max-width: 670px;
-}
+    .waves-content{
+        padding: 1rem 0.8rem;
+        margin: 0 0;
+        max-width: 670px;
+    }
 
-form {
-    width: 28rem;
-}
+    form {
+        width: 28rem;
+    }
 
-.subscribe-button {
-    width: 7rem;
-}
+    .subscribe-button {
+        width: 7rem;
+    }
 
-.footer-wrapper {
-    padding: 0 3rem 0 1rem;
-    display: flex;
-    justify-content: space-between;
-}
+    .footer-wrapper {
+        padding: 0 3rem 0 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.information {
-    margin-bottom: 0;
-    text-align: left;
-}
+    .information-wrapper {
+        margin-bottom: 0;
+        text-align: left;
+    }
 
-.info {
-    margin-bottom: 1rem;
-    line-height: 1.5rem;
-}
+    .info {
+        margin-bottom: 1rem;
+        line-height: 1.5rem;
+    }
 
-.contact {
-    margin-bottom: 1rem;
-}
+    .contact {
+        margin-bottom: 1rem;
+    }
 
-.location {
-    line-height: 1.5rem;
-}
+    .location {
+        line-height: 1.5rem;
+    }
 
-.social {
-    line-height: 2rem;
-    margin-bottom: 0;
-}
+    .social {
+        line-height: 2rem;
+        margin-bottom: 0;
+    }
 
-.social-content {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 0;
-}
+    .social-content {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin: 0;
+    }
 
-.fa {
-    text-align: left;
-}
+    .fa {
+        text-align: left;
+    }
 
-.social-text {
-    line-height: 2rem;
-    display: inline-block;
-    font-size: 1rem;
-    font-family: "ralewaylight", "Arial", sans-serif;
-}
+    .social-text {
+        line-height: 2rem;
+        display: inline-block;
+        font-size: 1rem;
+        font-family: "ralewaylight", "Arial", sans-serif;
+    }
 }
 /*Desktop Sized Viewport @ 1240 */
 @media screen and (min-width: 1240px) {
-.header-wrapper {
-    padding: 1rem 1.5rem;
-}
+    .header-wrapper {
+        padding: 1rem 1.5rem;
+    }
 
-.aloha-logo {
-    width: 160px;
-}
+    .aloha-logo {
+        width: 160px;
+    }
 
-/* Shopping cart icon */
-.cart-icon {
-    width: 62px;
-    padding-right: 2rem;
-}
+    .cart-icon {
+        width: 62px;
+    }
 
-nav {
-    padding: 0 5rem 0 0;
-}
+    nav {
+        padding: 0 5rem 0 0;
+    }
 
-.menu a {
-    font-size: 1rem;
-    padding: 0 1.2rem;
-}
+    .menu a {
+        font-size: 1rem;
+        padding: 0 1.2rem;
+    }
 
-.white-space {
-    height: 97px;
-}
+    .white-space {
+        height: 97px;
+    }
 
-.hero-banner{
-    background: 
+    .hero-banner{
+        background: 
         linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
         url(../images/banner-girl.png) no-repeat,
         url(../images/flower-bkgd.jpg) repeat-x;
-    background-position: 50% 0rem, center 3.72rem;
-    background-size: cover, 250px, contain;
-    height: 550px;
-    text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
-}
+        background-position: 50% 0rem, center 3.72rem;
+        background-size: cover, 250px, contain;
+        height: 550px;
+        text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
+    }
 
-.banner-container {
-    margin: 0 auto;
-    width: 825px;
-    padding-top: 7.2rem;
-}
+    .banner-container {
+        margin: 0 auto;
+        width: 825px;
+        padding-top: 7.2rem;
+    }
 
-.spring {
-    font-size: 4rem;
-    margin-top: 0.5rem;
-}
+    .spring {
+        font-size: 4rem;
+        margin-top: 0.5rem;
+    }
 
-.company-info {
-    padding-left: 17rem;
-    padding-right: 17rem;
-}
+    .company-info {
+        padding-left: 17rem;
+        padding-right: 17rem;
+    }
 
-.info-wrapper {
-    padding-top: 4rem;
-    padding-bottom: 2.5rem;
-}
+    .info-wrapper {
+        padding-top: 4rem;
+        padding-bottom: 2.5rem;
+    }
 
-.category-text {
-    font-size: 2.5rem;
-}
+    .category-text {
+        font-size: 2.5rem;
+    }
 
-.featured-products {
-    margin-bottom: 0;
-}
+    .featured-products {
+        margin-bottom: 0;
+    }
 
-.loved-products {
-    padding-top: 0;
-}
+    .loved-products {
+        padding-top: 0;
+    }
 
-.merch-list {
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-}
+    .merch-list {
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
 
-.picture-list {
-    width: 25%;
-}
+    .picture-list {
+        width: 25%;
+    }
 
-.product-picture {
-    width: 83%;
-}
+    .product-picture {
+        width: 83%;
+    }
 
-.type {
-    margin: 0.85rem 0 1.2rem 0;
-    font-size: 0.75rem;
-}
+    .type {
+        margin: 0.85rem 0 1.2rem 0;
+        font-size: 0.75rem;
+    }
 
-/*.title {
-    margin: 0 auto;
-    font-size: 1.5rem;
-}*/
+    .price {
+        font-size: 1rem;   
+    }
 
-.price {
-    font-size: 1rem;   
-}
+    .merchandise-wrapper {
+        padding: 4rem 0 0.4rem 0;
+    }
 
-.merchandise-wrapper {
-    padding: 4rem 0 0.4rem 0;
-}
+    .waves {
+        height: 344.5px;
+        margin-top: 0;
+    }
 
-.waves {
-    height: 344.5px;
-    margin-top: 0;
-}
+    .waves-wrapper {
+        padding: 1.1rem 18rem 0 18rem;
+    }
 
-.waves-wrapper {
-    padding: 1.1rem 18rem 0 18rem;
-}
+    .updates {
+        padding-top: 0;
+    }
 
-.updates {
-    padding-top: 0;
-}
+    .waves-content {
+        line-height: 2.25rem;
+        margin: 0.5rem 1rem;
+        padding: 0 5.3rem;
+        min-width: 671px;
+        font-size: 1.15rem;
+    }
 
-.waves-content {
-    line-height: 2.25rem;
-    margin: 0.5rem 1rem;
-    padding: 0 5.3rem;
-    min-width: 671px;
-    font-size: 1.15rem;
-}
+    form {
+        width: 41rem;
+        margin: 1.5rem 2rem 0 13.5rem;
+    }
 
-form {
-    width: 41rem;
-    margin: 1.5rem 2rem 0 13.5rem;
-}
+    .input-box {
+        padding-right: 9rem;
+        width: 18.3rem;
+    }
 
-.input-box {
-    padding-right: 9rem;
-    width: 18.3rem;
-}
+    .subscribe {
+        width: 7rem;
+        height: 2.7rem;
+        right: 12.45rem;
+        top: 0.15rem;
+    }
 
-.subscribe {
-    width: 7rem;
-    height: 2.7rem;
-    right: 12.45rem;
-    top: 0.15rem;
-}
+    .footer-banner {
+        padding-top: 4rem;
+        padding-bottom: 3.5rem;
+    }
 
-.footer-banner {
-    padding-top: 4rem;
-    padding-bottom: 3.5rem;
-}
+    .footer-wrapper {
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5rem 0 1.5rem;
+    }
 
-.footer-wrapper {
-    padding-top: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5rem 0 1.5rem;
-}
+    .information-wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
 
-.information {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1rem;
-}
+    .info {
+        margin-bottom: 1rem;
+        line-height: 1.5rem;
+    }
 
-.info {
-    margin-bottom: 1rem;
-    line-height: 1.5rem;
-}
+    .contact {
+        margin-bottom: 1rem;
+    }
 
-.contact {
-    margin-bottom: 1rem;
-}
+    .location {
+        line-height: 1.5rem;
+    }
 
-.location {
-    line-height: 1.5rem;
-}
+    .social {
+        line-height: 2rem;
+        margin-bottom: 0;
+    }
 
-.social {
-    line-height: 2rem;
-    margin-bottom: 0;
-}
+    .social-content {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
 
-.social-content {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
+    .social-text {
+        line-height: 2rem;
+        font-size: 1rem;
+    }
 
-.social-text {
-    line-height: 2rem;
-    font-size: 1rem;
-}
-
-.fa {
-    text-align: left;
-}
+    .fa {
+        text-align: left;
+    }
 }
