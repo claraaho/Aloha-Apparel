@@ -257,10 +257,14 @@ span {
     width: 100%;
 }
 
+/* Pushing the picture images as background */
+.long-pictures, .square-pictures {
+    z-index: -1;
+}
+
 /* Styling for the long pictures themselves */
 .long-pictures {
     width: 100%;
-    z-index: -1;
 }
 
 /* Styling for the square pictures and text within them */
@@ -475,7 +479,6 @@ a:hover {
 .fa {
     min-width: 1.8rem;
 }
-
 /*Tablet Sized Viewport @ 600 */
 @media screen and (min-width: 600px) {
     html {

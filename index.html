@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aloha Apparel</title>
-    <script src="https://use.fontawesome.com/0495204cae.js"></script>
+    <title>Clara Aloha Apparel</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flickity.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/0495204cae.js"></script>
 </head>
 
 <body>
@@ -17,16 +17,12 @@
         <div class="header-wrapper">
             <img class="aloha-logo" src="images/aloha-logo.svg" alt="The Aloha Apparel logo">
             <img class="cart-icon" src="images/cart-icon.svg" alt="Shopping cart">
-            <nav>
+            <nav class="nav">
                 <ul class="menu">
-                    <li><a href="#about">about</a>
-                    </li>
-                    <li><a href="#shop">shop</a>
-                    </li>
-                    <li><a href="#featured">featured</a>
-                    </li>
-                    <li><a href="#updates">updates</a>
-                    </li>
+                    <li class="active"><a href="#about">about</a></li>
+                    <li class="link2"><a href="#shop">shop</a></li>
+                    <li class="link3"><a href="#featured">featured</a></li>
+                    <li class="link4"><a href="#updates">updates</a></li>
                 </ul>
             </nav>
         </div>
@@ -78,49 +74,49 @@
         <div class="merchandise-wrapper">
             <h2 class="loved-products"><span>Most-Loved</span> Products</h2>
             <ul class="merch-list carousel">
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/stretch-knit-dress.jpg" alt="A stretch knit dress">
                     <p class="type product-font">dresses</p>
                     <h3 class="title">Stretch Knit Dress</h3>
                     <p class="price product-font">$169.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/cotton-blue-shirt.jpg" alt="Cotton blue shirt">
                     <p class="type product-font">shirts</p>
                     <h3 class="title">Cotton Blue Shirt</h3>
                     <p class="price product-font">$89.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/checked-stretch-dress.jpg" alt="Checked Stretch dress">
                     <p class="type product-font">dresses</p>
                     <h3 class="title">Checked Stretch Dress</h3>
                     <p class="price product-font">$129.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/blue-hipster-backpack.jpg" alt="Blue hipster backpack">
                     <p class="type product-font">bags</p>
                     <h3 class="title">Blue Hipster Backpack</h3>
                     <p class="price product-font">$69.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/demin-overall-shorts.jpg" alt="Denim overall shorts">
                     <p class="type product-font">denim</p>
                     <h3 class="title">Denim Overall Shorts</h3>
                     <p class="price product-font">$89.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/pink-dotted-dress.jpg" alt="A pink dotted dress">
                     <p class="type product-font">dresses</p>
                     <h3 class="title">Pink Dotted Dress</h3>
                     <p class="price product-font">$99.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/blue-silk-dress.jpg" alt="A blue silk dress">
                     <p class="type product-font">dresses</p>
                     <h3 class="title">Blue Silk Dress</h3>
                     <p class="price product-font">$119.00</p>
                 </li>
-                <li class="picture-list">
+                <li class="picture-list carousel-cell">
                     <img class="product-picture" src="images/cotton-yellow-tshirt.jpg" alt="Cotton yellow tshirt">
                     <p class="type product-font">shirts</p>
                     <h3 class="title">Cotton Yellow Tshirt</h3>
@@ -135,8 +131,8 @@
             <h2 class="updates"><span>Sign-up for</span> Updates</h2>
             <p class="waves-content body-text">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
             <form>
-                <input class="input-box" type="text" value placeholder="Your Email" />
-                <input class="subscribe" type="submit" value="Subscribe" />
+                <input class="input-box" id="email" type="text" value placeholder="Your Email"/>
+                <input class="subscribe" id="button" type="submit" value="Subscribe" />
             </form>
         </div>
     </section>
