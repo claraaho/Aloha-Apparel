@@ -196,12 +196,13 @@ nav {
     padding-top: 3.5rem;
     line-height: 2.5rem;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
+    color: #FFF;
+    text-align: center;
 }
 
 /* The Collection text */
 .collection {
     font-size: 1.25rem;
-    color: #FFFFFF;
     text-transform: uppercase;
     font-family: 'ralewaymedium', 'Arial', serif;
 }
@@ -209,9 +210,7 @@ nav {
 /* The apparel season text */
 .spring {
     padding-top: 1rem;
-    text-align: center;
     font-size: 2.5rem;
-    color: #FFFFFF;
     font-family: 'playfair_regular', 'Times New Roman', serif;
 }
 
@@ -463,6 +462,11 @@ a:hover {
     color: #b64036;
 }
 
+/* Styling for the social media links */
+.social-list li a {
+    text-decoration: none;
+}
+
 /* Social Media text */
 .social-text{
     display: none;
@@ -470,7 +474,7 @@ a:hover {
 
 /* Social Media icons */
 .fa {
-    min-width: 1.8rem;
+    min-width: 1.5rem;
 }
 /*Tablet Sized Viewport @ 600 */
 @media screen and (min-width: 600px) {
@@ -648,10 +652,12 @@ a:hover {
 
     .aloha-logo {
         width: 160px;
+        margin-left: 4rem;
     }
 
     .cart-icon {
         width: 62px;
+        margin-right: 5rem;
     }
 
     nav {
@@ -775,7 +781,7 @@ a:hover {
     }
 
     .footer-banner {
-        padding-top: 4rem;
+        padding-top: 3.5rem;
         padding-bottom: 3.5rem;
     }
 
@@ -783,6 +789,6 @@ a:hover {
         padding-top: 0;
         display: flex;
         justify-content: space-between;
-        padding: 0 5rem 0 1.5rem;
+        padding: 0 10rem 0 5rem;
     }
 }

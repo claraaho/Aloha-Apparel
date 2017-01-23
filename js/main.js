@@ -1,5 +1,4 @@
 $(function () {
-
 function scrollNav() {
  $('.nav a').click(function(){  
    $(".active").removeClass("active");      
