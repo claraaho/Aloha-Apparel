@@ -19,13 +19,13 @@ scrollNav();
 })
 
 $(function (){
-	$('.carousel').flicikity({
-		cellAlign: 'center',
+	$('.carousel').flickity({
+		cellAlign: 'left',
 		contain: true,
 		percentPosition: true,
 		imagesLoaded: true,
 		autoPlay: true,
-		prevNexButtons: false
+		prevNextButtons: false
 	});
 })
 
@@ -42,7 +42,7 @@ $('#button').on('click', function(event) {
 	} else {
 		alert("Please submit a valid email address.");
 	  }	
-});
+})
 
 function validateEmail(email) {
   var pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

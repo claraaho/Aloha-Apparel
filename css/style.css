@@ -102,15 +102,18 @@ html {
     font-size: 14px;
 }
 
+/* Styling for h1  */
 h1 {
     display: none;
 }
 
+/* Styling for h2 */
 h2 {    
     font-size: 2.4rem;
     font-family: 'playfair_bold', 'Times New Roman', serif;
 }
 
+/* Styline for h3 */
 h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -187,14 +190,16 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
     height: 300px;
     padding-top: 3.5rem;
-    line-height: 2.9rem;
+    line-height: 2.5rem;
     text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
 /* The Collection text */
-.collection{
+.collection {
     font-size: 1.25rem;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -202,8 +207,8 @@ nav {
 }
 
 /* The apparel season text */
-.spring{
-    width: 77%;
+.spring {
+    padding-top: 1rem;
     text-align: center;
     font-size: 2.5rem;
     color: #FFFFFF;
@@ -224,19 +229,19 @@ span {
 }
 
 /* Styling for text within the body */
-.body-text{
+.info-wrapper p, .waves-wrapper p{
     font-family: 'ralewaylight', 'Arial', sans-serif;
     font-size: 1.15rem;
     line-height: 2.3rem;
 }
 
 /* Aloha Apparel webpage info text*/
-.shop-content {
-    padding: 1.5rem 0.8rem;
+.info-wrapper p {
+    padding: 1.5rem 0.5rem;
 }
 
 /* Section that contains the product categories */
-.products-category {
+#shop {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -255,7 +260,7 @@ span {
 }
 
 /* Pushing the picture images as background */
-.long-pictures, .square-pictures {
+.picture-wrapper img {
     z-index: -1;
 }
 
@@ -267,7 +272,7 @@ span {
 }
 
 /* Styling for the long pictures themselves */
-.long-pictures {
+.long-wrapper img {
     width: 100%;
 }
 
@@ -277,20 +282,22 @@ span {
 }
 
 /* Styling for the square pictures themselves */
-.square-pictures {
+.square-wrapper img{
     width: 100%;
 }
 
+/* Styling for category pictures on the left */
 .left-pics {
     border-left: 0;
 }
 
+/* Styling for category pictures on the right */
 .right-pics {
     border-right: 0;
 }
 
 /* The text within the product category pictures */
-.category-text {
+.picture-wrapper p {
     position: absolute;
     font-family: "ralewaymedium", "Arial", sans-serif;
     font-size: 1.6rem;
@@ -299,25 +306,12 @@ span {
     text-shadow: 2px 2px 4px #646464;
 }
 
-/* Wrapper that contains loved products and merch pictures/info  */
-.merchandise-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* Styling for the Most Loved Products text */
-.loved-products {
+.merchandise-wrapper h2 {
     padding-top: 4rem;
     padding-bottom: 4.5rem;
     color: #2d2d2d;
-}
-
-/* Unordered list with the product pictures and info */
-.merch-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 /* List element */
@@ -355,13 +349,13 @@ li {
 }
 
 /* Waves/Sign-up Section */
-.waves {
+#updates {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.09) 0%, rgba(0,0,0,0.2) 100%),
   url(../images/wave-bkgd.jpg);
   background-position: bottom;
   height: 332.5px;
-  margin-top: 0.95rem;
+  margin-top: 4rem;
 }
 
 /* Wrapper for content within the waves section */
@@ -378,17 +372,16 @@ li {
 }
 
 /* Styling for the Sign-up/Updates text */
-.updates {
-    margin-bottom: 0.5rem;
+.waves-wrapper h2 {
     padding-top: 0.5rem;
     text-shadow: 2px 2px 4px #646464;
 }
 
 /* Update/Subscribe info text */
-.waves-content {
+.waves-wrapper p {
     max-width: 550px;
     text-align: center;
-    margin: 0.5rem 1rem;
+    padding: 1rem 0.5rem;
 }
 
 /* Form wrapper for the email box */
@@ -536,7 +529,7 @@ a:hover {
         font-size: 3rem;
     }
 
-    .shop-content {
+    .info-wrapper p {
         max-width: 686px;
         margin: 0 auto;
     }
@@ -559,11 +552,11 @@ a:hover {
         height: 100%;
     }
 
-    .category-text {
+    .picture-wrapper p {
         font-size: 1.8rem;
     }
 
-    .featured-products {
+    #featured {
         margin-bottom: 4.6rem;
     }
 
@@ -575,7 +568,7 @@ a:hover {
         padding: 0 2%;
     }
 
-    .picture-list {
+    .merch-list li {
         width: 50%;
     }
 
@@ -583,15 +576,15 @@ a:hover {
         width: 17.5rem;
     }
 
-    .waves {
+    #updates {
         height: 340px;
     }
 
-    .updates {
+    .waves-wrapper h2 {
         padding-top: 2.5rem;
     }
 
-    .waves-content{
+    .waves-wrapper p{
         padding: 1rem 0.8rem;
         margin: 0 0;
         max-width: 670px;
@@ -629,7 +622,7 @@ a:hover {
         margin-bottom: 0;
     }
 
-    .social-content {
+    .social-list li {
         display: flex;
         flex-direction: row;
         align-items: baseline;
@@ -696,7 +689,7 @@ a:hover {
         margin-top: 0.5rem;
     }
 
-    .company-info {
+    #about {
         padding-left: 17rem;
         padding-right: 17rem;
     }
@@ -706,15 +699,15 @@ a:hover {
         padding-bottom: 2.5rem;
     }
 
-    .category-text {
+    .picture-wrapper p {
         font-size: 2.5rem;
     }
 
-    .featured-products {
+    #featured {
         margin-bottom: 0;
     }
 
-    .loved-products {
+    .merchandise-wrapper h2 {
         padding-top: 0;
     }
 
@@ -724,7 +717,7 @@ a:hover {
         flex-wrap: wrap;
     }
 
-    .picture-list {
+    .merch-list li {
         width: 25%;
     }
 
@@ -745,16 +738,15 @@ a:hover {
         padding: 4rem 0 0.4rem 0;
     }
 
-    .waves {
+    #updates {
         height: 344.5px;
-        margin-top: 0;
     }
 
     .waves-wrapper {
         padding: 1.1rem 18rem 0 18rem;
     }
 
-    .updates {
+    .waves-wrapper h2 {
         padding-top: 0;
     }
 
