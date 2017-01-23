@@ -2,7 +2,6 @@ $(function () {
 
 function scrollNav() {
  $('.nav a').click(function(){  
-   console.log("alsjfla");
    $(".active").removeClass("active");      
    $(this).closest('li').addClass("active");
    var theClass = $(this).attr("class");
