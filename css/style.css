@@ -108,7 +108,7 @@ h1 {
 }
 
 /* Styling for h2 */
-h2 {    
+h2 {
     font-size: 2.4rem;
     font-family: 'playfair_bold', 'Times New Roman', serif;
 }
@@ -139,7 +139,7 @@ h3 {
     height: 105px;
 }
 
-/* Aloha Apparel logo */ 
+/* Aloha Apparel logo */
 .aloha-logo {
     width: 8.5rem;
     height: 4rem;
@@ -175,7 +175,7 @@ nav {
 
 /* Hero/flower girl Banner */
 .hero-banner{
-    background: 
+    background:
     linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
     url(../images/banner-girl.png) no-repeat center 60px,
     url(../images/flower-bkgd.jpg) repeat-x center top;
@@ -349,7 +349,7 @@ li {
 
 /* Waves/Sign-up Section */
 #updates {
-  background: 
+  background:
   linear-gradient(to bottom, rgba(0,0,0,0.09) 0%, rgba(0,0,0,0.2) 100%),
   url(../images/wave-bkgd.jpg);
   background-position: bottom;
@@ -674,7 +674,7 @@ a:hover {
     }
 
     .hero-banner{
-        background: 
+        background:
         linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
         url(../images/banner-girl.png) no-repeat,
         url(../images/flower-bkgd.jpg) repeat-x;
@@ -737,7 +737,7 @@ a:hover {
     }
 
     .price {
-        font-size: 1rem;   
+        font-size: 1rem;
     }
 
     .merchandise-wrapper {
