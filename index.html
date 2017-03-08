@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -12,11 +12,17 @@
 </head>
 
 <body>
-    <h1 class="screen-reader">Aloha</h1>
+    <a class="screen-reader-text" href="#about">Skip to content</a>
+    <!--<h1 class="screen-reader">Aloha</h1>-->
     <header>
         <div class="header-wrapper">
-            <img class="aloha-logo" src="images/aloha-logo.svg" alt="The Aloha Apparel logo">
-            <img class="cart-icon" src="images/cart-icon.svg" alt="Shopping cart">
+            <div class="aloha-logo-container">
+                <img class="aloha-logo" src="images/aloha-logo.svg" alt="The Aloha Apparel logo">
+                <h1 class="screen-reader-text">Aloha</h1>
+            </div>
+            <div class="cart-icon-container">
+                <img class="cart-icon" src="images/cart-icon.svg" alt="Shopping cart">
+            </div>
             <nav class="nav">
                 <ul class="menu">
                     <li class="active"><a href="#about">about</a></li>
@@ -26,52 +32,51 @@
                 </ul>
             </nav>
         </div>
-        <div class="white-space"></div>
     </header>
 
     <section class="hero-banner">
         <div class="banner-container">
-            <h2 class="collection">New Collection</h2>
+            <p class="collection">New Collection</p>
             <h2 class="spring">Spring/Summer 2016</h2>
         </div>
     </section>
 
-    <section id="about">
-        <div class="info-wrapper">
+    <section id="about" class="about-container" tabindex="-1">
+        <div class="info-wrapper container">
             <h2><span>Hand-Crafted</span> Styles</h2>
             <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
         </div>
     </section>
 
-    <section id="shop">
+    <section id="shop" class="shop-container">
         <div class="picture-wrapper long-wrapper men">
-            <p>men's</p>
+            <a href="#">men's</a>
             <img src="images/mens-category.jpg" alt="Mens category">
         </div>
         <div class="picture-wrapper square-wrapper left-pics add-left">
-            <p>trends</p>
+            <a href="#">trends</a>
             <img src="images/trends-category.jpg" alt="Trends category">
         </div>
         <div class="picture-wrapper square-wrapper right-pics">
-            <p>glasses</p>
+            <a href="#">glasses</a>
             <img src="images/glasses-category.jpg" alt="Glasses category">
         </div>
         <div class="picture-wrapper square-wrapper left-pics">
-            <p>sale</p>
+            <a href="#">sale</a>
             <img src="images/sale-category.jpg" alt="Sale category">
         </div>
         <div class="picture-wrapper square-wrapper right-pics add-right">
-            <p>bags</p>
+            <a href="#">bags</a>
             <img src="images/bags-category.jpg" alt="Bags category">
         </div>
         <div class="picture-wrapper long-wrapper women">
-            <p>women's</p>
+            <a href="#">women's</a>
             <img src="images/womens-category.jpg" alt="Womens category">
         </div>
     </section>
 
-    <section id="featured">
-        <div class="merchandise-wrapper">
+    <section id="featured" class="featured-container">
+        <div class="merchandise-wrapper container">
             <h2><span>Most-Loved</span> Products</h2>
             <ul class="merch-list carousel">
                 <li class="carousel-cell">
@@ -126,21 +131,26 @@
         </div>
     </section>
 
-    <section id="updates">
+    <section id="updates" class="updates-container">
         <div class="waves-wrapper">
             <h2><span>Sign-up for</span> Updates</h2>
             <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
             <form>
+<<<<<<< HEAD
+                <input class="input-box" id="email" type="email" value placeholder="Your Email"/>
+                <input class="subscribe" id="button" type="submit" value="Subscribe" />
+=======
                 <input class="input-box" id="email" type="text" value placeholder="Your Email" aria-label="email"/>
                 <input class="subscribe" id="button" type="submit" value="Subscribe"/>
+>>>>>>> 3b2d841caef01bdb4e96c3509acf26207c769896
             </form>
         </div>
     </section>
 
     <footer class="footer-banner">
-        <div class="footer-wrapper">
+        <div class="footer-wrapper container">
             <div class="information-wrapper">
-                <div class="info-contact info-location">
+                <div class="info-contact">
                     <p>&copy; 2016 Aloha Apparel Co.</p>
                     <p>Powered by HTML and CSS.</p>
                 </div>
@@ -182,6 +192,7 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/tota11y.min.js"></script>
 </body>
 
 </html>
