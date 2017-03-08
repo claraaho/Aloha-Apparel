@@ -531,8 +531,8 @@ a:hover {
         padding: 0 1rem;
         font-size: 1rem;
     }
-    .hero-banner {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(../images/banner-girl.png) no-repeat, url(../images/flower-bkgd.jpg) repeat-x;
+    .hero-banner{
+        background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), url(../images/banner-girl.png) no-repeat, url(../images/flower-bkgd.jpg) repeat-x;
         background-position: 50% 0rem, center 3.72rem;
         background-size: cover, 250px, contain;
         height: 550px;
