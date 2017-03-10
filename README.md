@@ -1,5 +1,5 @@
 #Aloha Apparel
-![aloha screenshot](/images/aloha_screenshot.png)
+![aloha screenshot](/images/aloha_apparel_scrnshot.png)
 
 ##Project Summary
 
