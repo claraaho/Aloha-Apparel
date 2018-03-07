@@ -275,7 +275,7 @@ p, input, a {
 }
 
 .merchandise-wrapper h2 {
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.5rem;
 }
 
 li {
@@ -304,8 +304,28 @@ li {
 
 .price {
     text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.add-cart-button {
+    color: #ffffff;
+    position: relative;
+    border-radius: 40px;
+    background: #000000;
+    border: none;
+    padding: 2% 3%;
+    font-size: 14px;
+    font-family: 'ralewaymedium', sans-serif;
+    cursor: pointer
+}
+
+.add-cart-button:hover {
+    background: grey;
+}
+
+.featured-container {
+    margin-bottom: 4rem;
 }
 
 .updates-container {
