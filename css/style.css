@@ -331,6 +331,7 @@ li {
 .updates-container {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../images/wave-bkgd.jpg);
     background-position: bottom;
+    background-size: cover;
     height: 332.5px;
     margin-top: 2rem;
 }
