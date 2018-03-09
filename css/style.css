@@ -122,9 +122,29 @@ h3 {
     height: 4rem;
 }
 
+.cart-icon-container {
+    position: relative;;
+}
+
 .cart-icon {
     width: 3.6rem;
     height: 4rem;
+}
+
+.item-total-button {
+    position: absolute;
+    display: none;
+    top: 1px;
+    right: -4px;
+    width: 20px;
+    height: 18px;
+    border-radius: 50%;
+    background: #e2574c;
+    color: white;
+    font-size: 9px;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'ralewaymedium', sans-serif;
 }
 
 .cart-icon:hover, .subscribe:hover, a:hover {
@@ -196,6 +216,10 @@ p, input, a {
     font-family: 'Raleway Web', 'Arial', sans-serif;
     font-size: 1rem;
     line-height: 2.3rem;
+}
+
+.waves-wrapper p {
+    text-shadow: 2px 2px 4px #646464;
 }
 
 .waves-wrapper p, .info-wrapper p {
@@ -449,6 +473,11 @@ a {
     .cart-icon {
         width: 3rem;
     }
+    .item-total-button {
+        padding-top: 2%;
+        width: 22px;
+        height: 17px;
+    }
     nav {
         border: none;
         margin-top: 0.9rem;
@@ -530,6 +559,11 @@ a {
     .cart-icon {
         width: 62px;
         margin-right: 5rem;
+    }
+    .item-total-button {
+        right: 74px;
+        height: 19px;
+        padding-top: 1.5%;
     }
     .menu a {
         padding: 0 1rem;
