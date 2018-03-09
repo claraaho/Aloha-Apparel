@@ -341,7 +341,8 @@ li {
     padding: 2% 3%;
     font-size: 14px;
     font-family: 'ralewaymedium', sans-serif;
-    cursor: pointer
+    cursor: pointer;
+    outline: none;
 }
 
 .add-cart-button:hover {
